@@ -30,7 +30,7 @@ let output = "$" + "\(numOfPennies)"
 //: Use string interpolation to replace the X with an expression for percent monthly earnings spent on rent.
 let averageMonthlyEarnings: Float = 2500
 var averageRent: Float = 800
-var weeklyEarningsString = "On average, millenials spend " + "$\(averageRent)" +  " of their income on rent."
+var weeklyEarningsString = "On average, millenials spend " + "%\((averageRent/averageMonthlyEarnings)*100)" +  " of their income on rent."
 /*:
  ****
  [Table of Contents](Table%20of%20Contents) | [Previous](@previous) | [Next](@next)
